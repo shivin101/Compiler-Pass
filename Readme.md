@@ -1,4 +1,4 @@
-### Part 3 : [Link](https://ucsd-pl.github.io/cse231/wi17/part3.html)
+### Compiler Passes for LLvm analysis [Link](https://ucsd-pl.github.io/cse231/wi17/part3.html)
 
 1. **Liveness Analysis**
 
@@ -7,6 +7,11 @@
 2. **May-point-to Analysis**
 
    In part 3, you will also need to implement a may-point-to analysis based on the framework you implemented
+
+
+![Instruction Set](http://url/to/img.png)
+![](http://url/to/img.png)
+![alt text](http://url/to/img.png)
 
 
 ## Configuration
@@ -32,7 +37,3 @@ clang++ -c -O0 -emit-llvm phi.cpp -o phi.bc
 opt -load LLVMPart2.so -cse231-cdi < input.bc -o input-instrumented.bc
 ```
 
-* Generate executives
-```
-clang++ /lib231/lib231.cpp input-instrumented.bc -o instrumented
-```
