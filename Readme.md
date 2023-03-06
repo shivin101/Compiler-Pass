@@ -4,7 +4,7 @@
 
   In this project we implement a liveness analysis on the functional analysis segment of an LLVM compiler. For any compiler pass a variable is live at a particular point in the program if its value at that point will be used in the future. It is dead otherwise.
    
-#### ![Implementation for Liveness Analysis](Passes/DFA/LivenessAnalysis.cpp)
+#### [Implementation for Liveness Analysis](Passes/DFA/LivenessAnalysis.cpp)
 
 2. **May-point-to Analysis**
 
@@ -16,7 +16,7 @@
 then the DFA identifier of the IR pointer, %ptr, created by this instruction is R10, and the DFA identifier of the memory object allocated by this instruction is M10.
 Let Pointers be the set of the DFA identifiers of the pointers in the function (including IR pointers and memory pointers) and MemoryObjects the set of the DFA identifiers of the memory objects allocated in the function. The domain D for this analysis is Powerset(S), where S={p → o | p ∊ Pointers && o ∊ MemoryObjects}. The bottom is the empty set. The top is S. ⊑ is ⊆ ("is subset of").
 
-#### ![Implementation for May Point To Analysis](Passes/MayPointTo/MPT.cpp)
+#### [Implementation for May Point To Analysis](Passes/MayPointTo/MPT.cpp)
 
 ![Instruction Set](graphics/cfg-00.png?raw=true)
 ![DFA](graphics/cfg-01.png)
