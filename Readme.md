@@ -9,9 +9,9 @@
    In part 3, you will also need to implement a may-point-to analysis based on the framework you implemented
 
 
-![Instruction Set](http://url/to/img.png)
-![](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![Instruction Set](https://raw.githubusercontent.com/shivin101/Compiler-Pass/main/graphics/cfg-00.png)
+![](https://raw.githubusercontent.com/shivin101/Compiler-Pass/main/graphics/cfg-01.png)
+![alt text](https://raw.githubusercontent.com/shivin101/Compiler-Pass/main/graphics/cfg-02.png)
 
 
 ## Configuration
